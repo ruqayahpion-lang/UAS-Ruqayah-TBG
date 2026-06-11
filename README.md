@@ -59,14 +59,11 @@ Antarmuka web interaktif yang menampilkan penyesuaian filter gedung di bagian si
 * [x] **Grafik Plotly Tampil:** Menggunakan visualisasi interaktif berkualitas tinggi (*Line Chart*).
 * [x] **Prediksi AI Berjalan:** Implementasi fungsi Scikit-Learn matematika garis lurus secara presisi.
 * [x] **Filter Sidebar Berfungsi:** Dropdown navigasi gedung langsung merubah data visual secara real-time.
-* [x] **Wajib Menggunakan Absolute Path:** Seluruh skrip menggunakan alamat mutlak `/home/qeyy/UAS_Ruqayah_TBG/`.
 """
 
 # 🖥️ Smart Campus Attendance Analytics - Big Data Pipeline
 
-Proyek ini merupakan implementasi **End-to-End Big Data Pipeline** yang dibangun untuk memenuhi tugas **Ujian Akhir Semester (UAS) Genap 20252** pada mata kuliah **Teknologi Big Data (PTI23048)**. Sistem ini mensimulasikan, memproses, menganalisis, dan memprediksi tingkat kepadatan mahasiswa di berbagai gedung kampus berdasarkan data *tapping* kartu identitas secara *real-time*.
-
----
+Proyek ini merupakan implementasi **End-to-End Big Data Pipeline** yang dibangun untuk memenuhi tugas **Ujian Akhir Semester (UAS) Genap** pada mata kuliah **Teknologi Big Data**. Sistem ini mensimulasikan, memproses, menganalisis, dan memprediksi tingkat kepadatan mahasiswa di berbagai gedung kampus berdasarkan data *tapping* kartu identitas secara *real-time*.
 
 ## 👤 Profil Mahasiswa
 * **Nama:** Ruqayah
