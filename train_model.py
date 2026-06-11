@@ -6,7 +6,7 @@ import os
 print("🤖 Memulai Inisialisasi Model Machine Learning...")
 
 # 1. Membaca data Parquet hasil olahan Spark menggunakan Pandas
-path_ml_data = "output/ml_attendance"
+path_ml_data = "/home/qeyy/UAS_Ruqayah_TBG/output/ml_attendance"
 
 if not os.path.exists(path_ml_data):
     print("❌ Error: Folder 'output/ml_attendance' tidak ditemukan!")
@@ -33,7 +33,7 @@ print(f"📈 Formula Linear: Korelasi Kemiringan (Slope) = {model.coef_[0]:.4f},
 
 # 4. Menyimpan Model AI ke dalam file (.pkl) agar bisa dipakai di Dashboard Streamlit
 os.makedirs('model', exist_ok=True)
-model_filename = 'model/linear_reg_model.pkl'
+model_filename = '/home/qeyy/UAS_Ruqayah_TBG/model/linear_reg_model.pkl'
 
 with open(model_filename, 'wb') as file:
     pickle.dump(model, file)

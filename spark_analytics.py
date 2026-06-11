@@ -48,14 +48,14 @@ def save_clean_parquet(df, path):
         shutil.rmtree(path)
     df.write.mode("overwrite").parquet(path)
 
-save_clean_parquet(df_total, "output/attendance_total")
-save_clean_parquet(df_time, "output/attendance_time")
-save_clean_parquet(df_ml, "output/ml_attendance")
+save_clean_parquet(df_total, "/home/qeyy/UAS_Ruqayah_TBG/output/attendance_total")
+save_clean_parquet(df_time, "/home/qeyy/UAS_Ruqayah_TBG/output/attendance_time")
+save_clean_parquet(df_ml, "/home/qeyy/UAS_Ruqayah_TBG/output/ml_attendance")
 
 print("✅ SEMUA PROSES SPARK SELESAI!")
 print("📂 Folder Parquet yang berhasil dibuat:")
-print("   -> output/attendance_total")
-print("   -> output/attendance_time")
-print("   -> output/ml_attendance")
+print("   -> /home/qeyy/UAS_Ruqayah_TBG/output/attendance_total")
+print("   -> /home/qeyy/UAS_Ruqayah_TBG/output/attendance_time")
+print("   -> /home/qeyy/UAS_Ruqayah_TBG/output/ml_attendance")
 
 spark.stop()

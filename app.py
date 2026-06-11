@@ -15,9 +15,9 @@ st.sidebar.header("👤 Profil Mahasiswa")
 st.sidebar.info("**Nama:** Ruqayah\n\n**Kelas:** TI23A\n\n**Project:** UAS Teknologi Big Data")
 
 # Jalur data Parquet dan Model AI
-path_total = "output/attendance_total"
-path_time = "output/attendance_time"
-path_model = "model/linear_reg_model.pkl"
+path_total = "/home/qeyy/UAS_Ruqayah_TBG/output/attendance_total"
+path_time = "/home/qeyy/UAS_Ruqayah_TBG/output/attendance_time"
+path_model = "/home/qeyy/UAS_Ruqayah_TBG/model/linear_reg_model.pkl"
 
 # Cek ketersediaan file data sebelum dimuat
 if not (os.path.exists(path_total) and os.path.exists(path_time) and os.path.exists(path_model)):
