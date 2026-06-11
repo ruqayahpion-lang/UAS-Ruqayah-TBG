@@ -46,6 +46,7 @@ Seluruh komponen kode diwajibkan berjalan pada jalur absolut (*Absolute Path*) s
 Tampilan Dashboard Utama Streamlit & Grafik Plotly
 
 Antarmuka web interaktif yang menampilkan penyesuaian filter gedung di bagian sidebar dan visualisasi grafik tren garis dinamis dari data Parquet.
+<img width="367" height="545" alt="image" src="https://github.com/user-attachments/assets/b92263e9-a90a-4d14-aab2-1e1004dfd9b9" />
 <img width="1517" height="502" alt="Cuplikan layar 2026-06-11 101428" src="https://github.com/user-attachments/assets/9cf45fee-0b6a-44f2-a2a2-c81427f19878" />
 <img width="1499" height="727" alt="Cuplikan layar 2026-06-11 101420" src="https://github.com/user-attachments/assets/56855d2a-ad51-4d82-998e-d192ea272758" />
 <img width="1517" height="502" alt="Cuplikan layar 2026-06-11 101428" src="https://github.com/user-attachments/assets/5aaf072e-53cf-4fcd-b3cf-f78d5fa7e800" />
