@@ -1,4 +1,4 @@
-Smart Campus Attendance Analytics
+## Smart Campus Attendance Analytics
 
 ## 🏛️ Arsitektur & Pipeline Sistem
 Sistem ini dirancang menggunakan arsitektur modern berkinerja tinggi dengan alur kerja (*pipeline*) sebagai berikut:
